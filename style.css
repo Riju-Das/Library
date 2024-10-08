@@ -266,3 +266,22 @@ main{
     height: 35px;
     background-size: contain;
 }
+
+@media (orientation: portrait){
+    .title{
+        font-size: 40px;
+    }
+    .bookcont{
+        display: flex;
+        gap: 100px;
+        height: 100%;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        margin-left: 35px;
+        margin-top: 9px;
+        margin-right: 0px;
+    }
+    .bookbox{
+        width:300px
+    }
+}
