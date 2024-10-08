@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clickboxcontainer">
+        <div class="clickbox">
+            <div class="closebtn">&times;</div>
+            <form action="" id="formbox">
+                <label for="bookname">Name of book:</label>
+                <input type="text" name="bookname" id="bookname" class="inputform" required>
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author" class="inputform" required>
+                <label for="pages">Pages:</label>
+                <input type="number" name="pages" id="pages" class="inputform" required>
+                <label for="Readornot">Read or Not?</label>
+                <select name="Readornot" id="Readornot">
+                    <option value="read">Read</option>
+                    <option value="Not read">Not Read</option>
+                </select>
+                <input type="submit" id="submitform" class="submit" />                
+            </form>
+        </div>   
+    </div>
+    <div class="overlay"></div>
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="lines">                
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+            </div>
+            <div class="addbox">
+                <div class="addcontainer">
+                    <div class="bookadd">
+                        ADD BOOK
+                    </div>
+                    <div class="plussign">
+                        +
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <main>
+            <div class="title">
+                MY LIBRARY :
+            </div>
+            <div class="bookcont">
+                
+            </div>
+        </main>
+    </div>
+
+
+    <script src="sciprt.js"></script>
+</body>
+</html>
